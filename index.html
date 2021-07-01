@@ -295,19 +295,32 @@
 </head>
 <body>
 <div class="container padding-md">
-    <form class="form-horizontal m-0">
-        <div class="form-group ">
-            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-            <div class="col-sm-6">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-6">
-                <button type="submit" class="btn btn-block btn-success">Sign in</button>
-            </div>
-        </div>
-    </form>
+    <div class="row">
+        <ul class="list-group">
+            <li class="list-group-item">
+                C#
+                <div class="right pull-right">
+                    <a class="btn-primary  badge " data-index="c#">vote</a>
+                </div>
+            </li>
+            <li class="list-group-item">
+                Java
+                <a class="btn-primary  badge " data-index="java">vote</a>
+            </li>
+            <li class="list-group-item">
+                Perl
+                <a class="btn-primary  badge " data-index="perl">vote</a>
+            </li>
+            <li class="list-group-item">
+                Fortern
+                <a class="btn-primary  badge " data-index="fortern">vote</a>
+            </li>
+        </ul>
+        <ul class="list-unstyled" id="sortedLists">
+
+        </ul>
+    </div>
 </div>
+<script src="app.js"></script>
 </body>
 </html>
